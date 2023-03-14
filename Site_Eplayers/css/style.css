@@ -98,3 +98,19 @@ font-family: Roboto;
 .posicionamento-jogos{
     height:100%
 }
+
+.container{
+    max-width:1200px;
+}
+
+@media screen and (max-width 1200px) {
+     .container-grid{
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width 1000px) {
+     .container-grid{
+        width: 800px;
+    }
+}
